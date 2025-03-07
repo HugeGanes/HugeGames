@@ -4612,13 +4612,13 @@ function MacLib:Window(Settings)
 				ColorSequenceKeypoint.new(1, Color3.new(214/255, 159/255, 64/255))
 			}
 
-    local image = Instance.new('ImageLabel', button)
-    image.AnchorPoint = Vector2.new(0.5, 0.5)
-    image.Position = UDim2.new(0.5, 0, 0.5, 0)
-    image.Size = UDim2.new(0.882, 0, 0.823, 0)
-    image.BackgroundTransparency = 1
-    image.Image = 'rbxassetid://105071284447034'
-    image.ZIndex = 9999
+		    	local image = Instance.new('ImageLabel', button)
+		    	image.AnchorPoint = Vector2.new(0.5, 0.5)
+		    	image.Position = UDim2.new(0.5, 0, 0.5, 0)
+		    	image.Size = UDim2.new(0.882, 0, 0.823, 0)
+		    	image.BackgroundTransparency = 1
+		    	image.Image = 'rbxassetid://105071284447034'
+		    	image.ZIndex = 9999
 
 			local UserInputService = game:GetService("UserInputService")
 			local RunService = game:GetService("RunService")
